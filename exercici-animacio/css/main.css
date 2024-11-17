@@ -1,0 +1,43 @@
+:root{
+    --primary-color: cornflowerblue;
+    --secundary-color: darkcyan;
+    --border: 1px solid darkblue;
+    --text-color: white;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: var(--border);
+    border-radius: 100%;
+    background-image: url(../img/OIP\ \(1\).jpg);
+    background-size: 20%;
+    background-position: 50% 50%;
+    color: var(--text-color);
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: all 0.75s;
+    animation: movChange 5s infinite alternate linear;
+  }
+  
+  /* The animation code */
+  @keyframes movChange {
+    from {transform: rotate(0px) scale(1.0);}
+    to {transform: rotate(1080deg) scale(2.0);}
+  }

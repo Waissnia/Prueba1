@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacte</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/contacte.css" />
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+
+        <h1>LOCKWOOD TECHNO</h1>
+        <div id="imagediv" class="col-11 col-md-3 col-lg-3" >
+            <img id="image" src="./img/LOGO2.0.png" alt="web logo" />
+        </div>
+        <div id="nav" class="col-1 col-md-9 col-lg-9">
+            <nav>
+                <img id="hamburger" src="./img/menu-hamburger.svg" alt="hamburger menu"/>
+                <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./catalog.html">Catalog</a></li>
+                <li><a href="./contacte.html">Contacte</a></li>
+                </ul>
+            </nav>
+         </div>
+         <div id="magdiv" class="col-12 col-md-12 col-lg-12" >
+            <input type="text" id="busqueda" name="busqueda" placeholder="Search" required>
+            <img id="mag" src="./img/Search-icon.png" alt="botó de cerca" />
+         </div>
+      </header>
+      <main>
+        <div class="col-12 col-md-6 col-lg-6">
+          <h2>Formulari de contacte</h2>
+          <form>
+            <label for="nom">Nom:</label><br>
+            <input type="text" id="nom" name="nom" required><br>
+            <label for="mail">Correu Electronic:</label><br>
+            <input type="email" id="mail" name="mail" required><br>
+            <label for="missatge">Missatge:</label><br>
+            <input type="text" id="missatge" name="missatge" required><br>
+            <input type="submit" id="submit" value="Enviar">
+          </form>
+       </div>
+       <div class="col-12 col-md-6 col-lg-6">
+        <h2>Informacio de contacte</h2>
+        <p>Telefon: 333222111</p>
+        <p>Adreca: Plaza de Maluquer i Salvador 19.</p>
+        <p>Correu Electronic: Exemple@gmail.com</p>
+       </div>
+       <div id="divmap" class="col-12 col-md-12 col-lg-12">
+        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d484.51730998396187!2d2.2894033213636495!3d41.60910420889169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4c7cf65c07e47%3A0x3fcff540c1a42d5f!2sPla%C3%A7a%20Josep%20Maluquer%20i%20Salvador%2C%2019%2C%2008402%20Granollers%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1731598920179!5m2!1ses!2ses"></iframe>
+       </div>
+      </main>
+      <footer class="col-12 col-md-12 col-lg-12">
+        <div><h3>Join us on</h3></div>
+        <div>
+          <div class="logo">
+            <img src="./img/twitter-icon.svg" alt="twitter icon" />
+          </div>
+          <div class="logo">
+            <img src="./img/facebook-icon.svg" alt="facebook icon" />
+          </div>
+          <div class="logo">
+            <img src="./img/instagram-icon.svg" alt="instagram icon" />
+          </div>
+        </div>
+        <a href="#">Politica de privacitat</a>
+        <div id="copyright">&copy;LOCKWOOD TECHNO</div>
+      </footer>
+    </div>
+  </body>
+</html>

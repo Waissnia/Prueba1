@@ -1,0 +1,47 @@
+/*Display productes*/
+.prod{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divprod{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px var(--secundary-color) solid;
+    border-radius: 20%;
+    padding: 8px;
+    margin: 8px 10px;
+}
+.divprod img{
+  max-width:40%;
+}
+.preuAnt{
+  color:gray;
+  text-decoration:line-through;
+}
+.preuAct{
+  color: red;
+  font-weight: bold;
+}
+.carrocompra{
+  display: flex;
+  padding: 10px;
+  border-radius: 10%;
+  background-color: #66CE28;
+  border: 1px green solid;
+  
+}
+.carrocompra img{
+  width: 20px;
+  margin-right: 5px;
+  transition: 0.75s;
+}
+.carrocompra:hover{
+  transform: scale(1.1);
+}
+.linkprod{
+  color:black;
+}
+/* */

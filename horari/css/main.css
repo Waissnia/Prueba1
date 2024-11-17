@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+table, tr, th {
+    border: 1px solid black;
+    border-collapse:collapse;
+    font-weight: normal;
+  }
+table{
+    margin: 1em;
+    empty-cells: show;
+    table-layout: fixed;
+    width: 500px;
+    height: 500px;
+
+}
+th{
+    height:40px;
+    width: 100px;
+}
+#noms>th{
+    height: 25px;
+}
+#separador>th{
+    height: 15px;
+}
+.pr{
+    background-color: salmon;
+}
+.bdd{
+    background-color: palegreen;
+}
+.sis{
+    background-color: yellow;
+}
+.web{
+    background-color: paleturquoise;
+}
+.emp{
+    background-color:dodgerblue;
+}
+.rob{
+    background-color: blue;
+}
+.tut{
+    background-color: paleturquoise;
+}
+.eie{
+    background-color: orangered;
+}
+#noms :nth-child(1){
+    background-color: gray;
+}
+.hora{
+    width: 150px;
+}

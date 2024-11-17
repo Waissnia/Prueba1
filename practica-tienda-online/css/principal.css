@@ -1,0 +1,69 @@
+/*Display productes*/
+#banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(70, 69, 69);
+  color: goldenrod;
+  padding: 10px;   
+}
+#banner p {
+  animation: movChange 2s infinite linear;
+}
+/* The animation code */
+@keyframes movChange {
+  0% {transform: rotate(0px) scale(1.0);}
+  25% {transform: rotate(5deg) scale(1.1);}
+  50% {transform: rotate(0px) scale(1.0);}
+  75% {transform: rotate(-5deg) scale(1.1);}
+  100% {transform: rotate(0px) scale(1.0);}
+}
+.prod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .divprod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px var(--secundary-color) solid;
+    border-radius: 20%;
+    padding: 10px;
+    margin: 10px 10px;
+  }
+  
+  .divprod img{
+    max-width:40%;
+  }
+  .preuAnt{
+    color:gray;
+    text-decoration:line-through;
+  }
+  .preuAct{
+    color: red;
+    font-weight: bold;
+  }
+  .carrocompra{
+    display: flex;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: #66CE28;
+    border: 1px green solid;
+    margin-bottom: 5px;
+    
+  }
+  .carrocompra img{
+    width: 20px;
+    margin-right: 5px;
+    transition: 0.75s;
+  }
+  .carrocompra:hover{
+    transform: scale(1.1);
+  }
+  h3 a{
+    color: black;
+  }
+/* */

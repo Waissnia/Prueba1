@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    grid-template: 50% 50% / 1fr 1fr 1fr; 
+    height:100vh;  
+
+}
+.box{
+    background-color: gray;
+    color: white;
+    font-size: 2em;
+    border-radius: 6px;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+#A{
+    grid-column: 1/ span 2;
+}
+#B{
+    grid-column: 3;
+    grid-row:1 / span 2;
+}
+#C{
+    grid-column: 1 /2;
+    grid-row: 2;
+}
+#D{
+    grid-column: 2/ 3;
+    grid-row: 2;
+}
